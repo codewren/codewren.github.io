@@ -1,6 +1,7 @@
   - [AI Tech](/AI%20Tech/README.md)
-    - StudyNotes
-      - [LLM_Inferencing](/AI%20Tech/StudyNotes/LLM_Inferencing.md)
+    - SDCourse_AI_001
+      - [LLM_Inferencing_syllabus](/AI%20Tech/SDCourse_AI_001/0-LLM_Inferencing_syllabus.md)
+      - [LLM_Inferencing](/AI%20Tech/SDCourse_AI_001/1-LLM_Inferencing.md)
   - [Computer Programming](/Computer%20Programming/README.md)
     
   - [Data Flames](/Data%20Flames/README.md)
