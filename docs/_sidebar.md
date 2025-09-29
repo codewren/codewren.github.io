@@ -3,11 +3,30 @@
       - [LLM_Inferencing_syllabus](/AI%20Tech/SDCourse_AI_001/0-LLM_Inferencing_syllabus.md)
       - [LLM_Inferencing](/AI%20Tech/SDCourse_AI_001/1-LLM_Inferencing.md)
   - [Computer Programming](/Computer%20Programming/README.md)
-    
+    - c and cpp programming guide
+      - [tool chains cmake](/Computer%20Programming/c%20and%20cpp%20programming%20guide/tool%20chains%20cmake.md)
+    - git advanced guide
+      - [git credential storage](/Computer%20Programming/git%20advanced%20guide/git%20credential%20storage.md)
+      - [git quick sheet](/Computer%20Programming/git%20advanced%20guide/git%20quick%20sheet.md)
+    - software dev tool chain
+      - utilities
+        - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
   - [Data Flames](/Data%20Flames/README.md)
-    
+    - Advanced Datastructure Algorithm
+      - [advanced hash tables](/Data%20Flames/Advanced%20Datastructure%20Algorithm/advanced%20hash%20tables.md)
+    - Big Data Tech Radar
+      - [big data wrapup 2024 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202024%2006%20Jun.md)
+      - [big data wrapup 2025 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2006%20Jun.md)
+    - database tpc benchmarks
+      - [tpch benchmark](/Data%20Flames/database%20tpc%20benchmarks/tpch-benchmark.md)
+    - dataflame dev environment setting up
+      - [flink dev env linux](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/flink%20dev%20env%20linux.md)
+      - [spark hive hdfs development deployment](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/spark%20hive%20hdfs%20development%20deployment.md)
   - [HPC](/HPC/README.md)
-    
+    - [high performance computing hpc essentials](/HPC/high-performance-computing-hpc-essentials.md)
+    - [top down analysis](/HPC/top-down-analysis.md)
+  - K12Education
+    - [open courses](/K12Education/open-courses.md)
   - [SOHOIT](/SOHOIT/README.md)
     
   - [_navbar](/_navbar.md)
