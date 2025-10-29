@@ -17,6 +17,14 @@
     - Big Data Tech Radar
       - [big data wrapup 2024 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202024%2006%20Jun.md)
       - [big data wrapup 2025 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2006%20Jun.md)
+    - OSE Apache Arrow
+      - [Apache Arrow Introduction](/Data%20Flames/OSE%20Apache%20Arrow/Apache%20Arrow%20Introduction.md)
+    - OSE Apache Flink
+      - [Apache Flink Introduction](/Data%20Flames/OSE%20Apache%20Flink/Apache%20Flink%20Introduction.md)
+    - OSE Apache Spark
+      - [Apache Spark Introduction](/Data%20Flames/OSE%20Apache%20Spark/Apache%20Spark%20Introduction.md)
+    - OSE Velox
+      - [Velox velox meta unified execution engine](/Data%20Flames/OSE%20Velox/Velox%20velox%20meta%20unified%20execution%20engine.md)
     - database tpc benchmarks
       - [tpch benchmark](/Data%20Flames/database%20tpc%20benchmarks/tpch-benchmark.md)
     - dataflame dev environment setting up
