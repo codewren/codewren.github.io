@@ -1,16 +1,21 @@
-💡 **Apache Spark: A Unified Engine for Big Data**
+Velox: Meta's Unified Execution Engine
 
-Apache Spark is a powerful **open-source unified analytics engine** designed for large-scale data processing. It significantly accelerates big data workloads, often performing much faster than traditional systems like Hadoop MapReduce due to its **in-memory computing** capabilities.
+**Velox** is Meta's high-performance, open-source C++ database acceleration library. It provides a set of reusable, extensible, and dialect-agnostic data processing components, heavily relying on **vectorization** and **adaptivity**. Velox is designed to unify execution across various data management systems, including analytical query engines (like Presto and Spark), streaming platforms, and machine learning systems. This unification improves efficiency, consistency, and developer productivity by sharing common core logic and optimizations.
 
-Spark offers high-level APIs in languages like **Scala, Java, Python (PySpark), and R**, enabling developers to write applications for batch processing, real-time streaming, machine learning (**MLlib**), and interactive querying (**Spark SQL**). This unification of different data tasks makes it a versatile tool for data engineering, data science, and machine learning.
+The project is available on GitHub:
+**Open Source Repository:** `https://github.com/facebookincubator/velox`
 
-The official open-source repository for Spark is on GitHub:
-* **Open Source Repo:** `https://github.com/apache/spark`
+The paper describing the engine is:
+**Paper:** *Velox: Meta's Unified Execution Engine* (Published in PVLDB, Volume 15, Issue 12, 2022)
 
-The foundational paper is:
-***Spark: Cluster Computing with Working Sets*** by Matei Zaharia et al. (published in **HotCloud '10**). This paper introduced the concept of **Resilient Distributed Datasets (RDDs)**, the initial core abstraction of Spark.
-https://dl.acm.org/doi/10.5555/1863103.1863113
-Published: 22 June 2010 Publication History
+https://research.facebook.com/file/477542930588455/Velox-Metas-Unified-Execution-Engine-p1030-pedreira-cr2-1.pdf
 
+VLDB 2022
+https://www.vldb.org/pvldb/vol15/p3372-pedreira.pdf
+
+ACM 
+
+https://dl.acm.org/doi/10.14778/3554821.3554829
+Published: 01 August 2022 
 
 ---
