@@ -11,6 +11,11 @@
     - software dev tool chain
       - utilities
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
+    - vibe coding
+      - [gemini cli](/Computer%20Programming/vibe%20coding/gemini%20cli/README.md)
+        
+      - [qwen code](/Computer%20Programming/vibe%20coding/qwen%20code/README.md)
+        
   - [Data Flames](/Data%20Flames/README.md)
     - Advanced Datastructure Algorithm
       - [advanced hash tables](/Data%20Flames/Advanced%20Datastructure%20Algorithm/advanced%20hash%20tables.md)
