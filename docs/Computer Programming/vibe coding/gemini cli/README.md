@@ -7,6 +7,20 @@ The **Gemini Command Line Interface (CLI)** is an **open-source AI agent** that 
 ### 🌐 Links
 
 * **GitHub Repository:** [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
-* **Official Website/Documentation:** [Gemini CLI - Google Cloud Documentation](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli)
+* **Official Website/Documentation:** [Gemini Cli Website](https://geminicli.com/)
+* **Official Website/Documentation:** [Gemini Cli Doc](https://geminicli.com/docs/)
+
+* **Gemini CLI in Google Cloud doc:** [Gemini CLI - Google Cloud Documentation](https://docs.cloud.google.com/gemini/docs/codeassist/gemini-cli)
+
+
+
+
+
+
+
+
+
+
+
 
 ---

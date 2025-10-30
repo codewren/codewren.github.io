@@ -13,8 +13,10 @@
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
     - vibe coding
       - [gemini cli](/Computer%20Programming/vibe%20coding/gemini%20cli/README.md)
-        
+        - [gemini cli settings](/Computer%20Programming/vibe%20coding/gemini%20cli/gemini%20cli%20settings.md)
       - [qwen code](/Computer%20Programming/vibe%20coding/qwen%20code/README.md)
+        - [qwen code settings](/Computer%20Programming/vibe%20coding/qwen%20code/qwen%20code%20settings.md)
+      - [vibe coding project layout](/Computer%20Programming/vibe%20coding/vibe%20coding%20project%20layout/README.md)
         
   - [Data Flames](/Data%20Flames/README.md)
     - Advanced Datastructure Algorithm
