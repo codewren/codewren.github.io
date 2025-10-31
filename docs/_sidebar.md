@@ -41,6 +41,9 @@
     - [high performance computing hpc essentials](/HPC/high-performance-computing-hpc-essentials.md)
     - [top down analysis](/HPC/top-down-analysis.md)
   - K12Education
+    - English
+      - Vocabulary
+        - [Lifeboat](/K12Education/English/Vocabulary/Lifeboat.md)
     - [open courses](/K12Education/open-courses.md)
   - [SOHOIT](/SOHOIT/README.md)
     
