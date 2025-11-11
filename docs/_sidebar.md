@@ -1,7 +1,11 @@
   - [AI Tech](/AI%20Tech/README.md)
+    - PKCourses_AI
+      - [Speech and Language Processing](/AI%20Tech/PKCourses_AI/Speech%20and%20Language%20Processing.md)
     - SDCourse_AI_001
       - [LLM_Inferencing_syllabus](/AI%20Tech/SDCourse_AI_001/0-LLM_Inferencing_syllabus.md)
       - [LLM_Inferencing](/AI%20Tech/SDCourse_AI_001/1-LLM_Inferencing.md)
+      - references
+        - [articles list](/AI%20Tech/SDCourse_AI_001/references/articles%20list.md)
   - [Computer Programming](/Computer%20Programming/README.md)
     - c and cpp programming guide
       - [tool chains cmake](/Computer%20Programming/c%20and%20cpp%20programming%20guide/tool%20chains%20cmake.md)
@@ -32,6 +36,8 @@
       - [Apache Flink Introduction](/Data%20Flames/OSE%20Apache%20Flink/Apache%20Flink%20Introduction.md)
     - OSE Apache Spark
       - [Apache Spark Introduction](/Data%20Flames/OSE%20Apache%20Spark/Apache%20Spark%20Introduction.md)
+      - Shuffling
+        - [Push based Shuffle](/Data%20Flames/OSE%20Apache%20Spark/Shuffling/Push-based%20Shuffle.md)
     - OSE Velox
       - [Velox velox meta unified execution engine](/Data%20Flames/OSE%20Velox/Velox%20velox%20meta%20unified%20execution%20engine.md)
     - database tpc benchmarks
@@ -48,5 +54,6 @@
         - [Lifeboat](/K12Education/English/Vocabulary/Lifeboat.md)
     - [open courses](/K12Education/open-courses.md)
   - [SOHOIT](/SOHOIT/README.md)
-    
+    - Diagrams as Code
+      - [Diagramming Tools](/SOHOIT/Diagrams%20as%20Code/Diagramming%20Tools.md)
   - [_navbar](/_navbar.md)
