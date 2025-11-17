@@ -38,7 +38,11 @@
       - [Apache Spark Introduction](/Data%20Flames/OSE%20Apache%20Spark/Apache%20Spark%20Introduction.md)
       - Shuffling
         - [Push based Shuffle](/Data%20Flames/OSE%20Apache%20Spark/Shuffling/Push-based%20Shuffle.md)
+    - OSE VectorBase
+      - [Paper PVLDB VStream A Distributed Streaming Vector Search System](/Data%20Flames/OSE%20VectorBase/Paper%20PVLDB%20VStream%20A%20Distributed%20Streaming%20Vector%20Search%20System.md)
     - OSE Velox
+      - [Gluten Intro Article on Kyligence Chinese](/Data%20Flames/OSE%20Velox/Gluten%20Intro%20Article%20on%20Kyligence%20Chinese.md)
+      - [Velox Memory Management](/Data%20Flames/OSE%20Velox/Velox%20Memory%20Management.md)
       - [Velox velox meta unified execution engine](/Data%20Flames/OSE%20Velox/Velox%20velox%20meta%20unified%20execution%20engine.md)
     - database tpc benchmarks
       - [tpch benchmark](/Data%20Flames/database%20tpc%20benchmarks/tpch-benchmark.md)
