@@ -54,6 +54,8 @@
       - [spark hive hdfs development deployment](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/spark%20hive%20hdfs%20development%20deployment.md)
   - [HPC](/HPC/README.md)
     - [high performance computing hpc essentials](/HPC/high-performance-computing-hpc-essentials.md)
+    - profiling
+      - [tracy profiler](/HPC/profiling/tracy%20profiler.md)
     - [top down analysis](/HPC/top-down-analysis.md)
   - K12Education
     - English
