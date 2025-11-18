@@ -1,4 +1,6 @@
   - [AI Tech](/AI%20Tech/README.md)
+    - AI Tech Radar
+      - [AI Tech wrap up 2025 11 Nov](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2011%20Nov.md)
     - PKCourses_AI
       - [Speech and Language Processing](/AI%20Tech/PKCourses_AI/Speech%20and%20Language%20Processing.md)
     - SDCourse_AI_001
@@ -30,6 +32,7 @@
     - Big Data Tech Radar
       - [big data wrapup 2024 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202024%2006%20Jun.md)
       - [big data wrapup 2025 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2006%20Jun.md)
+      - [big data wrapup 2025 11 Nov](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2011%20Nov.md)
     - OSE Apache Arrow
       - [Apache Arrow Introduction](/Data%20Flames/OSE%20Apache%20Arrow/Apache%20Arrow%20Introduction.md)
     - OSE Apache Flink
