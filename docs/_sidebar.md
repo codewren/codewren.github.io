@@ -67,4 +67,12 @@
   - [SOHOIT](/SOHOIT/README.md)
     - Diagrams as Code
       - [Diagramming Tools](/SOHOIT/Diagrams%20as%20Code/Diagramming%20Tools.md)
+    - LinuxAdmin
+      - Ansible
+        - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
+    - [LinuxRHELAdmin](/SOHOIT/LinuxRHELAdmin/README.md)
+      
+    - LinuxUbuntuAdmin
+      - WSLUbuntu
+        - [WSL Ubuntu Enable sshd service](/SOHOIT/LinuxUbuntuAdmin/WSLUbuntu/WSL%20Ubuntu%20Enable%20sshd%20service.md)
   - [_navbar](/_navbar.md)
