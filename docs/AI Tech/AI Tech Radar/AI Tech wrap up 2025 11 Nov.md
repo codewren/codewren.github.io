@@ -60,3 +60,21 @@ https://arxiv.org/abs/2501.09223
       url={https://arxiv.org/abs/2501.09223}, 
 }
 ```
+----
+
+# ToyNLP
+Implementing classic NLP models from scratch with clean code and easy-to-understand architecture.
+https://github.com/ai-glimpse/toynlp
+
+----
+# Nested Learning: The Illusion of Deep Learning Architectures
+https://abehrouz.github.io/files/NL.pdf
+
+
+related article:
+## Introducing Nested Learning: A new ML paradigm for continual learning
+November 7, 2025  Ali Behrouz, Student Researcher, and Vahab Mirrokni, VP and Google Fellow, Google Research
+https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/
+
+
+-----

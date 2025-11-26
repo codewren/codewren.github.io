@@ -11,19 +11,19 @@
   - [Computer Programming](/Computer%20Programming/README.md)
     - c and cpp programming guide
       - [tool chains cmake](/Computer%20Programming/c%20and%20cpp%20programming%20guide/tool%20chains%20cmake.md)
+    - coding agent
+      - [gemini cli](/Computer%20Programming/coding%20agent/gemini%20cli/README.md)
+        - [gemini cli settings](/Computer%20Programming/coding%20agent/gemini%20cli/gemini%20cli%20settings.md)
+      - [qwen code](/Computer%20Programming/coding%20agent/qwen%20code/README.md)
+        - [qwen code settings](/Computer%20Programming/coding%20agent/qwen%20code/qwen%20code%20settings.md)
+      - [vibe coding project layout](/Computer%20Programming/coding%20agent/vibe%20coding%20project%20layout/README.md)
+        
     - git advanced guide
       - [git credential storage](/Computer%20Programming/git%20advanced%20guide/git%20credential%20storage.md)
       - [git quick sheet](/Computer%20Programming/git%20advanced%20guide/git%20quick%20sheet.md)
     - software dev tool chain
       - utilities
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
-    - vibe coding
-      - [gemini cli](/Computer%20Programming/vibe%20coding/gemini%20cli/README.md)
-        - [gemini cli settings](/Computer%20Programming/vibe%20coding/gemini%20cli/gemini%20cli%20settings.md)
-      - [qwen code](/Computer%20Programming/vibe%20coding/qwen%20code/README.md)
-        - [qwen code settings](/Computer%20Programming/vibe%20coding/qwen%20code/qwen%20code%20settings.md)
-      - [vibe coding project layout](/Computer%20Programming/vibe%20coding/vibe%20coding%20project%20layout/README.md)
-        
     - vscode
       - [remote ssh downloading locally then transfer](/Computer%20Programming/vscode/remote%20ssh%20downloading%20locally%20then%20transfer.md)
     - web front
