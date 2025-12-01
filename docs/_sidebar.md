@@ -35,14 +35,19 @@
       - [big data wrapup 2024 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202024%2006%20Jun.md)
       - [big data wrapup 2025 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2006%20Jun.md)
       - [big data wrapup 2025 11 Nov](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2011%20Nov.md)
+      - [big data wrapup 2025 12 Dec](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2012%20Dec.md)
     - OSE Apache Arrow
       - [Apache Arrow Introduction](/Data%20Flames/OSE%20Apache%20Arrow/Apache%20Arrow%20Introduction.md)
     - OSE Apache Flink
+      - [AlibabaCloudFlink](/Data%20Flames/OSE%20Apache%20Flink/AlibabaCloudFlink.md)
       - [Apache Flink Introduction](/Data%20Flames/OSE%20Apache%20Flink/Apache%20Flink%20Introduction.md)
+      - [Flink Source Code Illustration](/Data%20Flames/OSE%20Apache%20Flink/Flink%20Source%20Code%20Illustration.md)
     - OSE Apache Spark
       - [Apache Spark Introduction](/Data%20Flames/OSE%20Apache%20Spark/Apache%20Spark%20Introduction.md)
       - Shuffling
         - [Push based Shuffle](/Data%20Flames/OSE%20Apache%20Spark/Shuffling/Push-based%20Shuffle.md)
+    - OSE Data Analysis Framework
+      - [Apache Calcite](/Data%20Flames/OSE%20Data%20Analysis%20Framework/Apache%20Calcite.md)
     - OSE VectorBase
       - [Paper PVLDB VStream A Distributed Streaming Vector Search System](/Data%20Flames/OSE%20VectorBase/Paper%20PVLDB%20VStream%20A%20Distributed%20Streaming%20Vector%20Search%20System.md)
     - OSE Velox
