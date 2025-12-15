@@ -1,6 +1,7 @@
   - [AI Tech](/AI%20Tech/README.md)
     - AI Tech Radar
       - [AI Tech wrap up 2025 11 Nov](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2011%20Nov.md)
+      - [AI Tech wrap up 2025 12 Dec](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2012%20Dec.md)
     - PKCourses_AI
       - [Speech and Language Processing](/AI%20Tech/PKCourses_AI/Speech%20and%20Language%20Processing.md)
     - SDCourse_AI_001
@@ -62,6 +63,8 @@
   - [HPC](/HPC/README.md)
     - [high performance computing hpc essentials](/HPC/high-performance-computing-hpc-essentials.md)
     - profiling
+      - [Object Introspection: A C++ Memory Profiler](/HPC/profiling/Object%20Introspection:%20A%20C++%20Memory%20Profiler.md)
+      - [Owership aware profiling](/HPC/profiling/Owership-aware%20profiling.md)
       - [tracy profiler](/HPC/profiling/tracy%20profiler.md)
     - [top down analysis](/HPC/top-down-analysis.md)
   - K12Education
@@ -75,6 +78,8 @@
     - LinuxAdmin
       - Ansible
         - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
+      - Bash
+        - [Bash completion](/SOHOIT/LinuxAdmin/Bash/Bash%20completion.md)
     - [LinuxRHELAdmin](/SOHOIT/LinuxRHELAdmin/README.md)
       
     - LinuxUbuntuAdmin
