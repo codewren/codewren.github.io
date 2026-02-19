@@ -20,8 +20,9 @@
       - [vibe coding project layout](/Computer%20Programming/coding%20agent/vibe%20coding%20project%20layout/README.md)
         
     - git advanced guide
-      - [git credential storage](/Computer%20Programming/git%20advanced%20guide/git%20credential%20storage.md)
-      - [git quick sheet](/Computer%20Programming/git%20advanced%20guide/git%20quick%20sheet.md)
+      - [Git Clean Up Remote Branches](/Computer%20Programming/git%20advanced%20guide/Git%20Clean%20Up%20Remote%20Branches.md)
+      - [Git Credential Storage](/Computer%20Programming/git%20advanced%20guide/Git%20Credential%20Storage.md)
+      - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
     - software dev tool chain
       - utilities
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
@@ -80,6 +81,12 @@
         - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
       - Bash
         - [Bash completion](/SOHOIT/LinuxAdmin/Bash/Bash%20completion.md)
+      - Booting
+        - [GRUB Installation and EFI Partition](/SOHOIT/LinuxAdmin/Booting/GRUB%20Installation%20and%20EFI%20Partition.md)
+        - [Linux Disk Info UUIDs and Labels](/SOHOIT/LinuxAdmin/Booting/Linux%20Disk%20Info%20UUIDs%20and%20Labels.md)
+        - [Linux Kernel Device Names](/SOHOIT/LinuxAdmin/Booting/Linux%20Kernel%20Device%20Names.md)
+      - UserMgmt
+        - [SUID Python Binary Library Import SO Error](/SOHOIT/LinuxAdmin/UserMgmt/SUID%20Python%20Binary%20Library%20Import%20SO%20Error.md)
     - [LinuxRHELAdmin](/SOHOIT/LinuxRHELAdmin/README.md)
       
     - LinuxUbuntuAdmin
