@@ -11,7 +11,8 @@ Here is how to get the information you’re looking for:
 This is usually the cleanest way to see size, mount point, label, and UUID in one view.
 
 ```bash
-lsblk -o NAME,SIZE,USED,AVAIL,USE%,MOUNTPOINT,LABEL,UUID
+#openEuler
+lsblk -o NAME,SIZE,FSUSED,FSAVAIL,FSUSE%,MOUNTPOINTS,LABEL,UUID
 
 ```
 
