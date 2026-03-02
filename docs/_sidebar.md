@@ -13,8 +13,11 @@
     - c and cpp programming guide
       - [tool chains cmake](/Computer%20Programming/c%20and%20cpp%20programming%20guide/tool%20chains%20cmake.md)
     - coding agent
+      - [LLM API Keys](/Computer%20Programming/coding%20agent/LLM%20API%20Keys.md)
       - [gemini cli](/Computer%20Programming/coding%20agent/gemini%20cli/README.md)
         - [gemini cli settings](/Computer%20Programming/coding%20agent/gemini%20cli/gemini%20cli%20settings.md)
+      - opencode
+        - [opencode](/Computer%20Programming/coding%20agent/opencode/opencode.md)
       - [qwen code](/Computer%20Programming/coding%20agent/qwen%20code/README.md)
         - [qwen code settings](/Computer%20Programming/coding%20agent/qwen%20code/qwen%20code%20settings.md)
       - [vibe coding project layout](/Computer%20Programming/coding%20agent/vibe%20coding%20project%20layout/README.md)
@@ -27,6 +30,7 @@
       - utilities
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
     - vscode
+      - [VS Code Remote SSH Custom Port](/Computer%20Programming/vscode/VS%20Code%20Remote%20SSH%20Custom%20Port.md)
       - [remote ssh downloading locally then transfer](/Computer%20Programming/vscode/remote%20ssh%20downloading%20locally%20then%20transfer.md)
     - web front
       - [shadcn ui](/Computer%20Programming/web%20front/shadcn-ui.md)
@@ -78,10 +82,14 @@
       - [Diagramming Tools](/SOHOIT/Diagrams%20as%20Code/Diagramming%20Tools.md)
     - DockerContainers
       - [Alternative Container Images Repo](/SOHOIT/DockerContainers/Alternative%20Container%20Images%20Repo.md)
+      - [ContainerDevWorkspaceLayout](/SOHOIT/DockerContainers/ContainerDevWorkspaceLayout.md)
       - [Most Commonly Used Containers](/SOHOIT/DockerContainers/Most%20Commonly%20Used%20Containers.md)
+    - GithubGuide
+      - [Generate ssh key](/SOHOIT/GithubGuide/Generate%20ssh%20key.md)
     - LinuxAdmin
       - Ansible
         - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
+        - [Ansible Setup On Ubuntu22.04](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Setup%20On%20Ubuntu22.04.md)
       - Bash
         - [Bash completion](/SOHOIT/LinuxAdmin/Bash/Bash%20completion.md)
       - Booting
