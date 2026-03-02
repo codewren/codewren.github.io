@@ -1,10 +1,10 @@
 # Most Commonly Used Containers
 
-## Ubuntu 24
+## Ubuntu 24 in WSL,  Podman created
 
 ### 1. Create containers
 ```
-podman run -d -it --name devcenter  --hostname devcenter -p 10022:22  docker.io/library/ubuntu:24.04
+podman run -d -it --name cntlcenter  --hostname cntlcenter --add-host cntlcenter:127.0.0.1  --network host   docker.io/library/ubuntu:24.04
 ```
 
 ### 2. Post Set up 
@@ -22,7 +22,7 @@ If your container is currently running in the background (using the -it or sleep
 Bash
 
 ```
-$ podman exec -it devcenter /bin/bash
+$ podman exec -it cntlcenter  /bin/bash
 ```
 
 Update the package list:
@@ -63,6 +63,7 @@ echo 'root:changeit' | chpasswd
 
 # Optional: Allow root login via SSH (Disabled by default)
 sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+sed -i 's/#Port 22/Port 10022/' /etc/ssh/sshd_config
 ```
 #### 2. Start the Service
 In a standard Linux OS, you'd use systemctl enable, but in a container, you simply start the binary or use the service helper:
