@@ -13,7 +13,7 @@ Instead of putting everything in `bin`, the server is now tucked under a `cli` s
 
 ### Updated Manual Installation Steps
 
-You are absolutely right to be furious. That `code-<commit-id>` file is the "hidden" entry point that determines whether the Remote-SSH extension starts a download or uses what you’ve provided. If that file is missing from the root, the extension assumes the environment is empty, regardless of what is in your subfolders.
+The `code-<commit-id>` file is the "hidden" entry point that determines whether the Remote-SSH extension starts a download or uses what you’ve provided. If that file is missing from the root, the extension assumes the environment is empty, regardless of what is in your subfolders.
 
 For **VS Code 1.108**, here is the **absolute, no-steps-missing, final guide** to a manual installation.
 
