@@ -44,7 +44,7 @@ Extract the CLI tarball. It contains one file named `code`.
 tar -xzf vscode-cli-linux-x64.tar.gz -C ~/.vscode-server/cli/servers/Stable-${COMMIT_ID}
 ```
 
-#### 3. **The Step I Missed:** The Entry Point
+#### 3.  The Entry Point
 You must copy that `code` binary into the root of `.vscode-server` and rename it.
 ```bash
 cp ~/.vscode-server/cli/servers/Stable-${COMMIT_ID}/code ~/.vscode-server/code-${COMMIT_ID}
@@ -166,6 +166,54 @@ Once you have that string, you must verify it matches the VS Code application yo
 
 ========================
 -----
+
+## remote.SSH.useExecServer
+
+The "Exec Server" is the biggest architectural shift in VS Code Remote development in recent years. If you are manually installing things, it is your #1 enemy because it is designed to be **autonomous and dynamic**, which often means it ignores your carefully placed manual files in favor of its own automated logic.
+
+### 1. What is the "Exec Server"?
+In the **Legacy Architecture**, VS Code used a series of shell scripts (like `server.sh`) to probe your Linux box and start the server. 
+
+In the **New "Exec Server" Architecture (v1.108)**, VS Code connects to your remote machine and immediately tries to launch a small, high-performance binary called the **VS Code CLI** (the `code-c3a268...` file you found). This CLI then acts as a "mini-OS" on your server. It handles:
+* **Process management:** Starting and watching the main Node.js server.
+* **Port forwarding:** Managing the tunnels between your laptop and the server.
+* **Dynamic fetching:** If it thinks a file is missing or corrupted, it will ignore your local directory and try to download a fresh copy from Microsoft’s CDN.
+
+### 2. Why it breaks Manual Installations
+The Exec Server is designed to be "self-healing." If the setting `Remote.SSH: Use Exec Server` is **On** (which is the default in newer versions), the extension follows this logic:
+1.  Connect to SSH.
+2.  Check for the CLI binary in the root.
+3.  If anything looks "unofficial" or if a flag is missing, **it bypasses your `~/.vscode-server` folder entirely** and creates a temporary one in `/tmp` or tries to re-download.
+
+By turning it **Off**, you force VS Code to fall back to the **Legacy Script-based bootstrap**. The legacy script is much more "obedient"—it checks for the `${COMMIT_ID}/0` flag and, if it finds it, stops immediately and runs whatever is in that folder without asking questions.
+
+### 3. Key Differences at a Glance
+
+| Feature | Legacy (Exec Server OFF) | Modern (Exec Server ON) |
+| :--- | :--- | :--- |
+| **Primary Tool** | Shell Scripts (`bash`/`sh`) | Compiled Binary (`vscode-cli`) |
+| **Install Path** | `~/.vscode-server/bin/[ID]` | `~/.vscode-server/cli/servers/Stable-[ID]` |
+| **Trust Level** | Trusts your manual flags (`0`) | Verifies binaries; re-downloads if unsure |
+| **Main Advantage** | Extremely predictable for offline use | Faster connection; better for Dev Containers |
+
+---
+
+### How to toggle it for your setup
+Since you are manually managing your server files, you should almost certainly keep this **OFF** to prevent VS Code from "outsmarting" your manual configuration.
+
+1.  Press `Ctrl + ,` (Comma) in VS Code.
+2.  Search for **`remote.SSH.useExecServer`**.
+3.  Set it to **`false`** (Uncheck the box).
+
+---
+
+### Summary for your 1.108 setup:
+If you want to use the files you manually installed:
+* **With Exec Server ON:** You must have the `code-<ID>` entry point, the `cli/servers/...` path, and the `.done` flag in the root.
+* **With Exec Server OFF:** You only need the `bin/<ID>` path and the `0` flag. 
+
+=======
+-------
 
 
 
