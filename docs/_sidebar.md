@@ -30,6 +30,7 @@
       - utilities
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
     - vscode
+      - [Manual Remote SSH VS Code Server Install](/Computer%20Programming/vscode/Manual%20Remote%20SSH%20VS%20Code%20Server%20Install.md)
       - [VS Code Remote SSH Custom Port](/Computer%20Programming/vscode/VS%20Code%20Remote%20SSH%20Custom%20Port.md)
       - [remote ssh downloading locally then transfer](/Computer%20Programming/vscode/remote%20ssh%20downloading%20locally%20then%20transfer.md)
     - web front
