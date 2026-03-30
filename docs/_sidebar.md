@@ -29,7 +29,6 @@
     - software dev tool chain
       - utilities
         - [tmux quick sheet](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux%20quick%20sheet.md)
-        - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
     - vscode
       - [Manual Remote SSH VS Code Server Install](/Computer%20Programming/vscode/Manual%20Remote%20SSH%20VS%20Code%20Server%20Install.md)
       - [VS Code Remote SSH Custom Port](/Computer%20Programming/vscode/VS%20Code%20Remote%20SSH%20Custom%20Port.md)
@@ -44,6 +43,7 @@
       - [big data wrapup 2025 06 Jun](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2006%20Jun.md)
       - [big data wrapup 2025 11 Nov](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2011%20Nov.md)
       - [big data wrapup 2025 12 Dec](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2012%20Dec.md)
+      - [big data wrapup 2026 03 Mar](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202026%2003%20Mar.md)
     - OSE Apache Arrow
       - [Apache Arrow Introduction](/Data%20Flames/OSE%20Apache%20Arrow/Apache%20Arrow%20Introduction.md)
     - OSE Apache Flink
