@@ -28,6 +28,7 @@
       - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
     - software dev tool chain
       - utilities
+        - [tmux quick sheet](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux%20quick%20sheet.md)
         - [tmux](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux.md)
     - vscode
       - [Manual Remote SSH VS Code Server Install](/Computer%20Programming/vscode/Manual%20Remote%20SSH%20VS%20Code%20Server%20Install.md)
