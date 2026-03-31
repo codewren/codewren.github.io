@@ -2,6 +2,8 @@
     - AI Tech Radar
       - [AI Tech wrap up 2025 11 Nov](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2011%20Nov.md)
       - [AI Tech wrap up 2025 12 Dec](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2012%20Dec.md)
+    - AI.Lab.Nanochat
+      - [nanochat.resources](/AI%20Tech/AI.Lab.Nanochat/nanochat.resources.md)
     - AI.Tech.Resources
       - [Github.ML.Collections](/AI%20Tech/AI.Tech.Resources/Github.ML.Collections.md)
     - PKCourses_AI
@@ -28,6 +30,9 @@
       - [Git Clean Up Remote Branches](/Computer%20Programming/git%20advanced%20guide/Git%20Clean%20Up%20Remote%20Branches.md)
       - [Git Credential Storage](/Computer%20Programming/git%20advanced%20guide/Git%20Credential%20Storage.md)
       - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
+    - rust lang
+      - [Rust Structs Creation and Destruction](/Computer%20Programming/rust-lang/Rust%20Structs%20Creation%20and%20Destruction.md)
+      - [The Cpp to Rust Mental Map   Function](/Computer%20Programming/rust-lang/The%20Cpp%20to%20Rust%20Mental%20Map%20-%20Function.md)
     - software dev tool chain
       - utilities
         - [tmux quick sheet](/Computer%20Programming/software%20dev%20tool%20chain/utilities/tmux%20quick%20sheet.md)
