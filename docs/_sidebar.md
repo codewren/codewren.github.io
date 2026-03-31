@@ -2,6 +2,8 @@
     - AI Tech Radar
       - [AI Tech wrap up 2025 11 Nov](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2011%20Nov.md)
       - [AI Tech wrap up 2025 12 Dec](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2012%20Dec.md)
+    - AI.Tech.Resources
+      - [Github.ML.Collections](/AI%20Tech/AI.Tech.Resources/Github.ML.Collections.md)
     - PKCourses_AI
       - [Speech and Language Processing](/AI%20Tech/PKCourses_AI/Speech%20and%20Language%20Processing.md)
     - SDCourse_AI_001
@@ -68,6 +70,8 @@
       - [flink dev env linux](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/flink%20dev%20env%20linux.md)
       - [spark hive hdfs development deployment](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/spark%20hive%20hdfs%20development%20deployment.md)
   - [HPC](/HPC/README.md)
+    - HPC.TextBook
+      - [The.art.of.hpc](/HPC/HPC.TextBook/The.art.of.hpc.md)
     - [high performance computing hpc essentials](/HPC/high-performance-computing-hpc-essentials.md)
     - profiling
       - [Object Introspection: A C++ Memory Profiler](/HPC/profiling/Object%20Introspection:%20A%20C++%20Memory%20Profiler.md)

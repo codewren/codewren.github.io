@@ -21,3 +21,9 @@ https://github.com/apache/spark/pull/33615/files#diff-17ed18489a956f326ec0fe4040
 https://github.com/apache/spark/blob/master/docs/configuration.md#push-based-shuffle-overview
 
 
+##  Spark Shuffle Deep Dive (Explained In Depth) - How Shuffle Works in Spark (slideshare)
+
+https://www.slideshare.net/slideshow/spark-shuffle-deep-dive-how-shuffle-works-in-spark/135563290
+
+
+
