@@ -103,6 +103,7 @@
       - [Podman Ubuntu 24.04 SSH Setup Guide 2. DEVUSER](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%202.%20DEVUSER.md)
       - [Podman Ubuntu 24.04 SSH Setup Guide 3. Workspaces v3_devtool_ext](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%203.%20Workspaces%20v3_devtool_ext.md)
       - [Podman Ubuntu 24.04 SSH Setup Guide 4. Specific Dev Project](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%204.%20Specific%20Dev%20Project.md)
+      - [Rootless Podman Gateway IP Access](/SOHOIT/DockerContainers/Rootless%20Podman%20Gateway%20IP%20Access.md)
     - GithubGuide
       - [Generate ssh key](/SOHOIT/GithubGuide/Generate%20ssh%20key.md)
     - LinuxAdmin

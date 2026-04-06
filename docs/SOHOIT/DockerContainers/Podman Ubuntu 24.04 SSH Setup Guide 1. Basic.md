@@ -10,7 +10,7 @@ Start the Ubuntu 24.04 container. This command maps host port **10022** to conta
 Bash
 
 ```
-podman run -d -it --name labdev --hostname labdev -p 10022:22 --security-opt seccomp=unconfined public.ecr.aws/ubuntu/ubuntu:24.04
+podman run -d -it --name labdev --hostname labdev -p 10022:22 -network slirp4netns:allow_host_loopback=true --security-opt seccomp=unconfined public.ecr.aws/ubuntu/ubuntu:24.04
 ```
 
 ## 2. Access and Environment Setup
@@ -25,6 +25,7 @@ podman exec -it labdev /bin/bash
 
 Update the package repositories and install the OpenSSH server along with essential networking and editing utilities.
 
+
 Bash
 
 ```
@@ -36,6 +37,21 @@ Bash
 ```
 apt install -y openssh-server curl iproute2 vim coreutils sudo
 ```
+
+
+### 2.1  Cntlm proxyu
+
+If the host is using cntlm proxy to access the internet, one may need to set proxy inside the container 
+
+```
+unset proxy
+expoert https_proxy=http://10.0.2.2:3128
+expoert http_proxy=http://10.0.2.2:3128
+```
+
+** Where does 10.0.2.2 come from? see more detail in "Rootless Podman Gateway IP Access".
+
+
 
 ## 3. Configure the SSH Service
 
