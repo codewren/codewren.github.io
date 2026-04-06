@@ -30,6 +30,7 @@
       - [Git Clean Up Remote Branches](/Computer%20Programming/git%20advanced%20guide/Git%20Clean%20Up%20Remote%20Branches.md)
       - [Git Credential Storage](/Computer%20Programming/git%20advanced%20guide/Git%20Credential%20Storage.md)
       - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
+      - [Git.Resources](/Computer%20Programming/git%20advanced%20guide/Git.Resources.md)
     - rust lang
       - [Rust Structs Creation and Destruction](/Computer%20Programming/rust-lang/Rust%20Structs%20Creation%20and%20Destruction.md)
       - [The Cpp to Rust Mental Map   Function](/Computer%20Programming/rust-lang/The%20Cpp%20to%20Rust%20Mental%20Map%20-%20Function.md)
@@ -74,6 +75,10 @@
     - dataflame dev environment setting up
       - [flink dev env linux](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/flink%20dev%20env%20linux.md)
       - [spark hive hdfs development deployment](/Data%20Flames/dataflame%20dev%20environment%20setting%20up/spark%20hive%20hdfs%20development%20deployment.md)
+  - ECE Essentials
+    - Distributed.DSA
+      - [ConsistentHash](/ECE%20Essentials/Distributed.DSA/ConsistentHash.md)
+    - [Misc Resources](/ECE%20Essentials/Misc%20Resources.md)
   - [HPC](/HPC/README.md)
     - HPC.TextBook
       - [The.art.of.hpc](/HPC/HPC.TextBook/The.art.of.hpc.md)
@@ -94,7 +99,10 @@
     - DockerContainers
       - [Alternative Container Images Repo](/SOHOIT/DockerContainers/Alternative%20Container%20Images%20Repo.md)
       - [ContainerDevWorkspaceLayout](/SOHOIT/DockerContainers/ContainerDevWorkspaceLayout.md)
-      - [Most Commonly Used Containers](/SOHOIT/DockerContainers/Most%20Commonly%20Used%20Containers.md)
+      - [Podman Ubuntu 24.04 SSH Setup Guide 1. Basic](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%201.%20Basic.md)
+      - [Podman Ubuntu 24.04 SSH Setup Guide 2. DEVUSER](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%202.%20DEVUSER.md)
+      - [Podman Ubuntu 24.04 SSH Setup Guide 3. Workspaces v3_devtool_ext](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%203.%20Workspaces%20v3_devtool_ext.md)
+      - [Podman Ubuntu 24.04 SSH Setup Guide 4. Specific Dev Project](/SOHOIT/DockerContainers/Podman%20Ubuntu%2024.04%20SSH%20Setup%20Guide%204.%20Specific%20Dev%20Project.md)
     - GithubGuide
       - [Generate ssh key](/SOHOIT/GithubGuide/Generate%20ssh%20key.md)
     - LinuxAdmin
@@ -103,6 +111,7 @@
         - [Ansible Setup On Ubuntu22.04](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Setup%20On%20Ubuntu22.04.md)
       - Bash
         - [Bash completion](/SOHOIT/LinuxAdmin/Bash/Bash%20completion.md)
+        - [TextBooks4Bash](/SOHOIT/LinuxAdmin/Bash/TextBooks4Bash.md)
       - Booting
         - [GRUB Installation and EFI Partition](/SOHOIT/LinuxAdmin/Booting/GRUB%20Installation%20and%20EFI%20Partition.md)
         - [Linux Disk Info UUIDs and Labels](/SOHOIT/LinuxAdmin/Booting/Linux%20Disk%20Info%20UUIDs%20and%20Labels.md)
@@ -110,7 +119,7 @@
       - UserMgmt
         - [SUID Python Binary Library Import SO Error](/SOHOIT/LinuxAdmin/UserMgmt/SUID%20Python%20Binary%20Library%20Import%20SO%20Error.md)
     - [LinuxRHELAdmin](/SOHOIT/LinuxRHELAdmin/README.md)
-      
+      - [OpenEuler.DataSheet](/SOHOIT/LinuxRHELAdmin/OpenEuler.DataSheet.md)
     - LinuxUbuntuAdmin
       - WSLUbuntu
         - [WSL Ubuntu Enable sshd service](/SOHOIT/LinuxUbuntuAdmin/WSLUbuntu/WSL%20Ubuntu%20Enable%20sshd%20service.md)
