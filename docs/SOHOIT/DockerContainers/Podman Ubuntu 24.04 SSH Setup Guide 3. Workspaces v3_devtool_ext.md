@@ -189,6 +189,37 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
   * Automatically attempts to add that directory to your **PATH** in your `.bashrc` or `.profile`.
 
 
+##### 2.1 Http proxy setting
+
+If the proxy are configured with company's self-signed SSL certification 
+
+###### 2.1.1 Install the company's self-signed SSL certification 
+
+See detail in [Install Self-Signed Certificate on Ubuntu](../LinuxUbuntuAdmin/Install%20Self-Signed%20Certificate%20on%20Ubuntu.md)
+
+###### 2.1.2  curl setting proxy
+curl recognize the env variable for proxy **http_proxy** and **https_proxy**
+
+###### 2.1.3 Curl: Disable SSL Certificate Validation
+
+
+Open (or create) the file: 
+```
+nano ~/.curlrc
+```
+
+Add this single line:
+
+Plaintext
+```
+insecure
+```
+
+or 
+Bash
+```
+curl --insecure https://example.com
+```
 
 #### 3. Refresh Your Shell
 

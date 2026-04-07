@@ -6,6 +6,8 @@
       - [nanochat.resources](/AI%20Tech/AI.Lab.Nanochat/nanochat.resources.md)
     - AI.Tech.Resources
       - [Github.ML.Collections](/AI%20Tech/AI.Tech.Resources/Github.ML.Collections.md)
+    - EmbeddingModel
+      - [EmbeddingModel.Basic](/AI%20Tech/EmbeddingModel/EmbeddingModel.Basic.md)
     - PKCourses_AI
       - [Speech and Language Processing](/AI%20Tech/PKCourses_AI/Speech%20and%20Language%20Processing.md)
     - SDCourse_AI_001
@@ -31,6 +33,8 @@
       - [Git Credential Storage](/Computer%20Programming/git%20advanced%20guide/Git%20Credential%20Storage.md)
       - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
       - [Git.Resources](/Computer%20Programming/git%20advanced%20guide/Git.Resources.md)
+    - python
+      - [uv Tool Quick Sheet](/Computer%20Programming/python/uv%20Tool%20Quick%20Sheet.md)
     - rust lang
       - [Rust Structs Creation and Destruction](/Computer%20Programming/rust-lang/Rust%20Structs%20Creation%20and%20Destruction.md)
       - [The Cpp to Rust Mental Map   Function](/Computer%20Programming/rust-lang/The%20Cpp%20to%20Rust%20Mental%20Map%20-%20Function.md)
@@ -52,6 +56,7 @@
       - [big data wrapup 2025 11 Nov](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2011%20Nov.md)
       - [big data wrapup 2025 12 Dec](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202025%2012%20Dec.md)
       - [big data wrapup 2026 03 Mar](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202026%2003%20Mar.md)
+      - [big data wrapup 2026 04 April](/Data%20Flames/Big%20Data%20Tech%20Radar/big%20data%20wrapup%202026%2004%20April.md)
     - OSE Apache Arrow
       - [Apache Arrow Introduction](/Data%20Flames/OSE%20Apache%20Arrow/Apache%20Arrow%20Introduction.md)
     - OSE Apache Flink
@@ -122,6 +127,7 @@
     - [LinuxRHELAdmin](/SOHOIT/LinuxRHELAdmin/README.md)
       - [OpenEuler.DataSheet](/SOHOIT/LinuxRHELAdmin/OpenEuler.DataSheet.md)
     - LinuxUbuntuAdmin
+      - [Install Self Signed Certificate on Ubuntu](/SOHOIT/LinuxUbuntuAdmin/Install%20Self-Signed%20Certificate%20on%20Ubuntu.md)
       - WSLUbuntu
         - [WSL Ubuntu Enable sshd service](/SOHOIT/LinuxUbuntuAdmin/WSLUbuntu/WSL%20Ubuntu%20Enable%20sshd%20service.md)
     - [PKM Apps](/SOHOIT/PKM%20Apps/README.md)

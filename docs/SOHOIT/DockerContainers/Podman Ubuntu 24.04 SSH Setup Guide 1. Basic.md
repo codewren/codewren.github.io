@@ -39,7 +39,7 @@ apt install -y openssh-server curl iproute2 vim coreutils sudo
 ```
 
 
-### 2.1  Cntlm proxyu
+### 2.1 Cntlm proxy
 
 If the host is using cntlm proxy to access the internet, one may need to set proxy inside the container 
 
@@ -51,6 +51,27 @@ expoert http_proxy=http://10.0.2.2:3128
 
 ** Where does 10.0.2.2 come from? see more detail in "Rootless Podman Gateway IP Access".
 
+
+
+### 2.2 Ubuntu Apt Proxy Configuration 
+
+1.  **Open the terminal** and create the file:
+    ```bash
+    sudo nano /etc/apt/apt.conf.d/99proxy
+    ```
+
+    or 
+
+    ```bash
+    sudo nano /etc/apt/apt.conf
+    ```
+
+2.  **Add the following lines**, replacing the placeholders with your actual proxy details:
+    ```text
+    Acquire::http::Proxy "http://proxy-server-address:port/";
+    Acquire::https::Proxy "http://proxy-server-address:port/";
+    ```
+    * *Note: Even for HTTPS traffic, many proxies use `http://` as the protocol for the proxy address itself.*
 
 
 ## 3. Configure the SSH Service
