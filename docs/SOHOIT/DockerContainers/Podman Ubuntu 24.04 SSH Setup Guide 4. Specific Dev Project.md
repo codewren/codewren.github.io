@@ -96,4 +96,44 @@ PODMAN_OPTS=(
 podman run "${PODMAN_OPTS[@]}"  labdev:v3_devtool_ext
 
 ```
+
+###  Behind Company's Proxy
+
+```bash
+
+PODMAN_OPTS=( 
+   -d -it 
+  --name daftai  --hostname daftai --add-host daftai:127.0.0.1  
+  -p 10122:22
+  --network slirp4netns:allow_host_loopback=true 
+  --user devuser 
+
+  # Identity mappings (devuser=1001)
+  --uidmap 1001:0:1 
+  --uidmap 0:1:1001 
+  --uidmap 1002:1002:64534 
+  --gidmap 1001:0:1 
+  --gidmap 0:1:1001 
+  --gidmap 1002:1002:64534 
+
+  # Security overrides
+  --cap-add=SYS_PTRACE 
+  --security-opt seccomp=unconfined 
+  --security-opt label=disable 
+
+  # --- Common Cache Mounts (Shared) --- 
+  -v "$CNTNER_COMMON/cargo_home:/home/devuser/.cargo:U" 
+  -v "$CNTNER_COMMON/rustup_home:/home/devuser/.rustup:U" 
+  -v "$CNTNER_COMMON/maven_cache:/home/devuser/.m2:U" 
+  -v "$CNTNER_COMMON/sbt_cache:/home/devuser/.sbt:U" 
+  -v "$CNTNER_COMMON/coursier_cache:/home/devuser/.cache/coursier:U" 
+  -v "$CNTNER_COMMON/uv_cache:/home/devuser/.cache/uv:U" 
+
+  # --- Project Specific Mounts ---  \
+  -v "$CNTNER_HOME/devspace:/home/devuser/devspace:U" 
+  -v "$CNTNER_HOME/vscode_server:/home/devuser/.vscode-server:U" 
+)
+podman run "${PODMAN_OPTS[@]}"  labdev:v3_devtool_ext
+
+```
 ----
