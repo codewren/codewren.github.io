@@ -1,0 +1,9 @@
+# Ignore workspace layout (essential for multi-device sync)
+.obsidian/workspace.json
+.obsidian/workspaces.json
+
+# Ignore local cache
+.obsidian/cache/
+
+# Ignore sensitive plugin data (adjust based on plugins used)
+.obsidian/plugins/*/data.json
