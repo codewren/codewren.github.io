@@ -134,4 +134,6 @@
       - docsify
         - [Docsify Auto Sidebar Sheets](/SOHOIT/PKM%20Apps/docsify/Docsify%20Auto%20Sidebar%20Sheets.md)
         - [Docsify Quick Sheet](/SOHOIT/PKM%20Apps/docsify/Docsify%20Quick%20Sheet.md)
+    - PKM Storage Layout
+      - [Linux and WSL KM Layout](/SOHOIT/PKM%20Storage%20Layout/Linux%20and%20WSL%20KM%20Layout.md)
   - [_navbar](/_navbar.md)
