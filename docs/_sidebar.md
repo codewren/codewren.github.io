@@ -20,14 +20,14 @@
       - [tool chains cmake](/Computer%20Programming/c%20and%20cpp%20programming%20guide/tool%20chains%20cmake.md)
     - coding agent
       - [LLM API Keys](/Computer%20Programming/coding%20agent/LLM%20API%20Keys.md)
+      - [coding agent project layout](/Computer%20Programming/coding%20agent/coding%20agent%20project%20layout/README.md)
+        
       - [gemini cli](/Computer%20Programming/coding%20agent/gemini%20cli/README.md)
         - [gemini cli settings](/Computer%20Programming/coding%20agent/gemini%20cli/gemini%20cli%20settings.md)
       - opencode
         - [opencode](/Computer%20Programming/coding%20agent/opencode/opencode.md)
       - [qwen code](/Computer%20Programming/coding%20agent/qwen%20code/README.md)
         - [qwen code settings](/Computer%20Programming/coding%20agent/qwen%20code/qwen%20code%20settings.md)
-      - [vibe coding project layout](/Computer%20Programming/coding%20agent/vibe%20coding%20project%20layout/README.md)
-        
     - git advanced guide
       - [Git Clean Up Remote Branches](/Computer%20Programming/git%20advanced%20guide/Git%20Clean%20Up%20Remote%20Branches.md)
       - [Git Credential Storage](/Computer%20Programming/git%20advanced%20guide/Git%20Credential%20Storage.md)

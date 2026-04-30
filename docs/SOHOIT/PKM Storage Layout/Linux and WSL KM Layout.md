@@ -1,11 +1,34 @@
 
 # 
 
-## Top Location
+## Top Location for Linux
 
 - arena
-- zone
 - zpaces
+
+## $HOME Base Location in Linux
+
+### Only For Linux Desktop of  $HOME-based  Application
+- Chrome
+- Obsidian
+-  rclone
+-  electerm
+-  jetbrains
+#### Location name
+ -  $HOME/zone/apphub
+ -  $HOME/zone/appimages
+ -  $HOME/zone/bin
+
+### Popular Dev Tool Chain Location
+- nvm and nodejs
+- uv and python
+- rust (rustc and cargo)
+ - claude code cli
+ - gemini cli
+ - opencode cli
+
+#### Location Name
+ -  $HOME/.local/__product__
 
 
 # Layout
