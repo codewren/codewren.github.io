@@ -20,7 +20,7 @@ Facebook Multifeed Archtecture
 
 [Apache Arrow DataFusion: A Fast, Embeddable, Modular Analytic Query Engine | Companion of the 2024 International Conference on Management of DataACM Conferences](https://dl.acm.org/doi/10.1145/3626246.3653368)
 
-[2024-06-11 SIGMOD\_ Apache Arrow DataFusion\_ A Fast, Embeddable, Modular Analytic Query Engine.pdfpdf](<files/2024-06-11 SIGMOD_ Apache Arrow DataFusion_ A Fast, Embeddable, Modular Analytic Query Engine.pdf>)
+![A Fast, Embeddable, Modular Analytic Query Engine.pdf](files/2024-06-11%20SIGMOD_%20Apache%20Arrow%20DataFusion_%20A%20Fast,%20Embeddable,%20Modular%20Analytic%20Query%20Engine.pdf)
 
 
 
