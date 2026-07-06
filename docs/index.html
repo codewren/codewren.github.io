@@ -38,7 +38,7 @@
         image: function(href, title, alt) {
           
           // Check if Docsify incorrectly turned a PPT/PPTX file into an image
-          if (/\.(ppt|pptx)$/i.test(href)) {
+          if (/\.(ppt|pptx|pdf)$/i.test(href)) {
             title = title ? ` title="${title}"` : '';
             
             // 1. Get the current active page hash path (e.g., "#/guides/tutorial")
