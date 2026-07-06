@@ -2,6 +2,7 @@
     - AI Tech Radar
       - [AI Tech wrap up 2025 11 Nov](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2011%20Nov.md)
       - [AI Tech wrap up 2025 12 Dec](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202025%2012%20Dec.md)
+      - [AI Tech wrap up 2026 07 July](/AI%20Tech/AI%20Tech%20Radar/AI%20Tech%20wrap%20up%202026%2007%20July.md)
     - AI.Lab.Nanochat
       - [nanochat.resources](/AI%20Tech/AI.Lab.Nanochat/nanochat.resources.md)
     - AI.Tech.Resources
