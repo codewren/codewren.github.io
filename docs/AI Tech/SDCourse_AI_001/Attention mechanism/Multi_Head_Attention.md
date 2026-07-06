@@ -1,7 +1,9 @@
 
-![](multi_head_attention.pptx)
-
 # Multi-Head Attention
+
+![](AI%20Tech/SDCourse_AI_001/Attention%20mechanism/Attachments/multi_head_attention.pptx)
+
+## Slide 1 
 
 *How h attention heads run in parallel and recombine — building on the single-head walkthrough.*
 

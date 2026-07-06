@@ -1,6 +1,8 @@
-![](Inside_One_Attention_Head.pptx)
 
 # Inside one Attention Head
+
+![](AI%20Tech/SDCourse_AI_001/Attention%20mechanism/Attachments/Inside_One_Attention_Head.pptx)
+## Slide 1 
 
 *Every matrix and vector, with its exact dimensions — using a real GPT-style configuration.*
 
