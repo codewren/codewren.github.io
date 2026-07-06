@@ -24,7 +24,49 @@
       '/.*/_sidebar.md': '/_sidebar.md',
     },
     subMaxLevel: 3,
-    sidebarDisplayLevel: 1// set sidebar display level
+    sidebarDisplayLevel: 1,// set sidebar display level
+     // This tells docsify to globally ignore routing or changing these extensions
+    noCompileLinks: [
+      '.*\\.ppt$',
+      '.*\\.pptx$'
+    ],
+    
+    // Completely hook into the engine instance directly
+    markdown: {
+      renderer: {
+        // Intercept Docsify's broken image token handling
+        image: function(href, title, alt) {
+          
+          // Check if Docsify incorrectly turned a PPT/PPTX file into an image
+          if (/\.(ppt|pptx)$/i.test(href)) {
+            title = title ? ` title="${title}"` : '';
+            
+            // 1. Get the current active page hash path (e.g., "#/guides/tutorial")
+            let currentHash = window.location.hash || '#/';
+            
+            // 2. Strip any trailing file parameters/IDs (e.g., ?id=section)
+            currentHash = currentHash.split('?')[0];
+            
+            // 3. Extract just the directory part of the current path
+            let currentDir = currentHash.substring(1, currentHash.lastIndexOf('/') + 1);
+            
+            // 4. Clean up the relative href typed in markdown (removes leading "./")
+            let cleanHref = href.replace(/^\.\//, '');
+            
+            // 5. Combine them into a correct root-relative static asset path
+            let resolvedHref = currentDir + cleanHref;
+            
+            // Force return a raw HTML link that correctly targets the file folder
+            return `<a href="${resolvedHref}" download="${alt || ''}"${title}>${alt || 'Download Presentation'}</a>`;
+          }
+          
+          // Fall back to Docsify's normal image renderer for legitimate images
+          return this.origin.image.apply(this, arguments);
+        }
+      }
+    }
+
+    // end of fix
   }
 </script>
   <!-- Docsify v4 -->

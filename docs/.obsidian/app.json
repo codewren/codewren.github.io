@@ -4,5 +4,5 @@
   "showUnsupportedFiles": true,
   "alwaysUpdateLinks": true,
   "readableLineLength": false,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "relative"
 }
