@@ -13,6 +13,10 @@
     - SDCourse_AI_001
       - [LLM_Inferencing_syllabus](/AI%20Tech/SDCourse_AI_001/0-LLM_Inferencing_syllabus.md)
       - [LLM_Inferencing](/AI%20Tech/SDCourse_AI_001/1-LLM_Inferencing.md)
+      - Attention mechanism
+        - [Attention Mechanism Overview](/AI%20Tech/SDCourse_AI_001/Attention%20mechanism/Attention%20Mechanism%20Overview.md)
+        - [Inside One Attention Head](/AI%20Tech/SDCourse_AI_001/Attention%20mechanism/Inside%20One%20Attention%20Head.md)
+        - [Multi_Head_Attention](/AI%20Tech/SDCourse_AI_001/Attention%20mechanism/Multi_Head_Attention.md)
       - references
         - [articles list](/AI%20Tech/SDCourse_AI_001/references/articles%20list.md)
   - [Computer Programming](/Computer%20Programming/README.md)
@@ -135,5 +139,6 @@
         - [Docsify Auto Sidebar Sheets](/SOHOIT/PKM%20Apps/docsify/Docsify%20Auto%20Sidebar%20Sheets.md)
         - [Docsify Quick Sheet](/SOHOIT/PKM%20Apps/docsify/Docsify%20Quick%20Sheet.md)
     - PKM Storage Layout
-      - [Linux and WSL KM Layout](/SOHOIT/PKM%20Storage%20Layout/Linux%20and%20WSL%20KM%20Layout.md)
+      - [Personal Linux and WSL KM Layout](/SOHOIT/PKM%20Storage%20Layout/Personal%20Linux%20and%20WSL%20KM%20Layout.md)
+      - [Shared Linux KM Layout](/SOHOIT/PKM%20Storage%20Layout/Shared%20Linux%20KM%20Layout.md)
   - [_navbar](/_navbar.md)

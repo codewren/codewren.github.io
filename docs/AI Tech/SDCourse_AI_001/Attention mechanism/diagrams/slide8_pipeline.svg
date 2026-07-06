@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 170" font-family="'Segoe UI',Calibri,system-ui,sans-serif" width="100%">
+<rect width="1000" height="170" fill="#0B1524" rx="14"/>
+<rect x="30" y="45" width="160" height="80" rx="10" fill="#13233B" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="110.0" y="79" fill="#3B82F6" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">X</text>
+<text x="110.0" y="105" fill="#8FA6C4" font-size="14" font-weight="normal" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3,512)</text>
+<text x="210.0" y="93.0" fill="#EAF2FB" font-size="26" font-weight="bold" text-anchor="middle">→</text>
+<rect x="230" y="45" width="160" height="80" rx="10" fill="#13233B" stroke="#F5A623" stroke-width="1.5"/>
+<text x="310.0" y="79" fill="#F5A623" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">Q,K,V</text>
+<text x="310.0" y="105" fill="#8FA6C4" font-size="14" font-weight="normal" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3,64)</text>
+<text x="410.0" y="93.0" fill="#EAF2FB" font-size="26" font-weight="bold" text-anchor="middle">→</text>
+<rect x="430" y="45" width="160" height="80" rx="10" fill="#13233B" stroke="#F97066" stroke-width="1.5"/>
+<text x="510.0" y="79" fill="#F97066" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">scores</text>
+<text x="510.0" y="105" fill="#8FA6C4" font-size="14" font-weight="normal" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3,3)</text>
+<text x="610.0" y="93.0" fill="#EAF2FB" font-size="26" font-weight="bold" text-anchor="middle">→</text>
+<rect x="630" y="45" width="160" height="80" rx="10" fill="#13233B" stroke="#A78BFA" stroke-width="1.5"/>
+<text x="710.0" y="79" fill="#A78BFA" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">weights</text>
+<text x="710.0" y="105" fill="#8FA6C4" font-size="14" font-weight="normal" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3,3)</text>
+<text x="810.0" y="93.0" fill="#EAF2FB" font-size="26" font-weight="bold" text-anchor="middle">→</text>
+<rect x="830" y="45" width="160" height="80" rx="10" fill="#13233B" stroke="#22D3C5" stroke-width="1.5"/>
+<text x="910.0" y="79" fill="#22D3C5" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">output</text>
+<text x="910.0" y="105" fill="#8FA6C4" font-size="14" font-weight="normal" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3,64)</text>
+</svg>

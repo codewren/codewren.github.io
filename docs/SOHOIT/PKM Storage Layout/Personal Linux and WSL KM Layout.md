@@ -1,14 +1,14 @@
 
-# 
+# 1. Common Layout
 
-## Top Location for Linux
+##  1.1 Top Location for Linux
 
 - arena
 - zpaces
 
-## $HOME Base Location in Linux
+## 1.2. $HOME Base Location in Linux
 
-### Only For Linux Desktop of  $HOME-based  Application
+### 1.2.1 Only For Linux Desktop of  $HOME-based  Application
 - Chrome
 - Obsidian
 -  rclone
@@ -19,7 +19,7 @@
  -  $HOME/zone/appimages
  -  $HOME/zone/bin
 
-### Popular Dev Tool Chain Location
+### 1.2.2 Popular Dev Tool Chain Location
 - nvm and nodejs
 - uv and python
 - rust (rustc and cargo)
@@ -31,7 +31,7 @@
  -  $HOME/.local/__product__
 
 
-# Layout
+# 2 Layout
 
 ```
 <TopLocation>/
@@ -54,7 +54,7 @@
 
 
 
-# Layout of WSL
+# 3. Layout of WSL
 
 	```
 	/mnt/c/zpaces/appdata/obsidian/codewren/codewren.github.io

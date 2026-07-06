@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 340" font-family="'Segoe UI',Calibri,system-ui,sans-serif" width="100%">
+<rect width="1180" height="340" fill="#0B1524" rx="14"/>
+<text x="84.0" y="80" fill="#22D3C5" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">out₀</text>
+<rect x="45" y="95" width="78" height="110" rx="9" fill="#13233B" stroke="#22D3C5" stroke-width="1.6"/>
+<text x="84.0" y="155.0" fill="#8FA6C4" font-size="12" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×64</text>
+<text x="84.0" y="231" fill="#8FA6C4" font-size="11" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 64)</text>
+<text x="174.0" y="80" fill="#F5A623" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">out₁</text>
+<rect x="135" y="95" width="78" height="110" rx="9" fill="#13233B" stroke="#F5A623" stroke-width="1.6"/>
+<text x="174.0" y="155.0" fill="#8FA6C4" font-size="12" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×64</text>
+<text x="174.0" y="231" fill="#8FA6C4" font-size="11" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 64)</text>
+<text x="264.0" y="80" fill="#A78BFA" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">out₂</text>
+<rect x="225" y="95" width="78" height="110" rx="9" fill="#13233B" stroke="#A78BFA" stroke-width="1.6"/>
+<text x="264.0" y="155.0" fill="#8FA6C4" font-size="12" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×64</text>
+<text x="264.0" y="231" fill="#8FA6C4" font-size="11" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 64)</text>
+<text x="319" y="158.0" fill="#8FA6C4" font-size="24" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">⋯</text>
+<text x="386.0" y="80" fill="#34D399" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">out₇</text>
+<rect x="347" y="95" width="78" height="110" rx="9" fill="#13233B" stroke="#34D399" stroke-width="1.6"/>
+<text x="386.0" y="155.0" fill="#8FA6C4" font-size="12" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×64</text>
+<text x="386.0" y="231" fill="#8FA6C4" font-size="11" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 64)</text>
+<text x="451" y="158.0" fill="#EAF2FB" font-size="24" font-weight="bold" text-anchor="middle">→</text>
+<text x="569" y="80" fill="#EAF2FB" font-size="15" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">concat</text>
+<rect x="479" y="95" width="180" height="110" rx="9" fill="#13233B" stroke="#EAF2FB" stroke-width="1.6"/>
+<text x="569.0" y="155.0" fill="#8FA6C4" font-size="14" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×512</text>
+<text x="569" y="231" fill="#8FA6C4" font-size="12" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 512)</text>
+<text x="683" y="158.0" fill="#EAF2FB" font-size="30" font-weight="bold" text-anchor="middle">×</text>
+<text x="789" y="80" fill="#F97066" font-size="15" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">W_O</text>
+<rect x="709" y="95" width="160" height="110" rx="9" fill="#13233B" stroke="#F97066" stroke-width="1.6"/>
+<text x="789.0" y="155.0" fill="#8FA6C4" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">512×512</text>
+<text x="789" y="231" fill="#8FA6C4" font-size="12" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(512, 512)</text>
+<text x="893" y="158.0" fill="#EAF2FB" font-size="30" font-weight="bold" text-anchor="middle">=</text>
+<text x="1001" y="80" fill="#3B82F6" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">MHA output</text>
+<rect x="919" y="95" width="164" height="110" rx="9" fill="#13233B" stroke="#3B82F6" stroke-width="1.6"/>
+<text x="1001.0" y="155.0" fill="#8FA6C4" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×512</text>
+<text x="1001" y="231" fill="#8FA6C4" font-size="12" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 512)</text>
+</svg>

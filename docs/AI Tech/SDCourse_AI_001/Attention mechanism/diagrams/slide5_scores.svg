@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 330" font-family="'Segoe UI',Calibri,system-ui,sans-serif" width="100%">
+<rect width="980" height="330" fill="#0B1524" rx="14"/>
+<text x="165.0" y="77" fill="#F5A623" font-size="17" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">Q</text>
+<rect x="90" y="95" width="150" height="150" rx="9" fill="#13233B" stroke="#F5A623" stroke-width="1.6"/>
+<text x="165.0" y="175.0" fill="#8FA6C4" font-size="15" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">n×64</text>
+<text x="165.0" y="275" fill="#8FA6C4" font-size="15" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(3, 64)</text>
+<text x="280" y="178.0" fill="#EAF2FB" font-size="30" font-weight="bold" text-anchor="middle">×</text>
+<text x="395.0" y="77" fill="#34D399" font-size="17" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">Kᵀ</text>
+<rect x="320" y="95" width="150" height="150" rx="9" fill="#13233B" stroke="#34D399" stroke-width="1.6"/>
+<text x="395.0" y="175.0" fill="#8FA6C4" font-size="15" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">64×n</text>
+<text x="395.0" y="275" fill="#8FA6C4" font-size="15" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(64, 3)</text>
+<text x="510" y="178.0" fill="#EAF2FB" font-size="30" font-weight="bold" text-anchor="middle">=</text>
+<text x="652.0" y="77" fill="#F97066" font-size="17" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">scores</text>
+<rect x="553" y="85" width="210" height="162" rx="9" fill="#13233B" stroke="#F97066" stroke-width="1.4"/>
+<rect x="565" y="97" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="594.0" y="122.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₁₁</text>
+<rect x="629" y="97" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="658.0" y="122.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₁₂</text>
+<rect x="693" y="97" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="722.0" y="122.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₁₃</text>
+<rect x="565" y="145" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="594.0" y="170.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₂₁</text>
+<rect x="629" y="145" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="658.0" y="170.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₂₂</text>
+<rect x="693" y="145" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="722.0" y="170.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₂₃</text>
+<rect x="565" y="193" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="594.0" y="218.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₃₁</text>
+<rect x="629" y="193" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="658.0" y="218.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₃₂</text>
+<rect x="693" y="193" width="58" height="42" rx="5" fill="#0B1524" stroke="#F97066" stroke-width="1.2"/>
+<text x="722.0" y="218.55" fill="#EAF2FB" font-size="13" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">s₃₃</text>
+<text x="652.0" y="269" fill="#8FA6C4" font-size="15" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">(n, n) = (3, 3)</text>
+<text x="790" y="125" fill="#EAF2FB" font-size="16" font-weight="normal" text-anchor="start" font-family="ui-monospace,'Courier New',monospace">sᵢⱼ = Q[i] · K[j]</text>
+<text x="790" y="157" fill="#8FA6C4" font-size="13" font-weight="normal" text-anchor="start" font-family="'Segoe UI',Calibri,system-ui,sans-serif">a dot product of two</text>
+<text x="790" y="177" fill="#8FA6C4" font-size="13" font-weight="normal" text-anchor="start" font-family="'Segoe UI',Calibri,system-ui,sans-serif">64-dim vectors → one number</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 360" font-family="'Segoe UI',Calibri,system-ui,sans-serif" width="100%">
+<rect width="760" height="360" fill="#0B1524" rx="14"/>
+<text x="380.0" y="42" fill="#3B82F6" font-size="18" font-weight="bold" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">X  (input embeddings)</text>
+<rect x="238" y="63" width="358" height="186" rx="9" fill="#13233B" stroke="#3B82F6" stroke-width="1.4"/>
+<rect x="250" y="75" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="281.0" y="105.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">1.0</text>
+<rect x="318" y="75" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="349.0" y="105.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.2</text>
+<rect x="386" y="75" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="417.0" y="105.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.0</text>
+<rect x="454" y="75" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="485.0" y="105.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">…</text>
+<rect x="522" y="75" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="553.0" y="105.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.5</text>
+<rect x="250" y="131" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="281.0" y="161.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.1</text>
+<rect x="318" y="131" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="349.0" y="161.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.9</text>
+<rect x="386" y="131" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="417.0" y="161.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.3</text>
+<rect x="454" y="131" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="485.0" y="161.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">…</text>
+<rect x="522" y="131" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="553.0" y="161.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.0</text>
+<rect x="250" y="187" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="281.0" y="217.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.4</text>
+<rect x="318" y="187" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="349.0" y="217.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.1</text>
+<rect x="386" y="187" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="417.0" y="217.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.8</text>
+<rect x="454" y="187" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="485.0" y="217.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">…</text>
+<rect x="522" y="187" width="62" height="50" rx="5" fill="#0B1524" stroke="#3B82F6" stroke-width="1.2"/>
+<text x="553.0" y="217.6" fill="#EAF2FB" font-size="16" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">0.2</text>
+<text x="220" y="105.0" fill="#8FA6C4" font-size="15" font-weight="normal" text-anchor="end" font-family="ui-monospace,'Courier New',monospace">the</text>
+<text x="220" y="161.0" fill="#8FA6C4" font-size="15" font-weight="normal" text-anchor="end" font-family="ui-monospace,'Courier New',monospace">cat</text>
+<text x="220" y="217.0" fill="#8FA6C4" font-size="15" font-weight="normal" text-anchor="end" font-family="ui-monospace,'Courier New',monospace">sat</text>
+<text x="380.0" y="279" fill="#8FA6C4" font-size="15" font-weight="bold" text-anchor="middle" font-family="ui-monospace,'Courier New',monospace">shape = (n=3, d_model=512)</text>
+<text x="380.0" y="303" fill="#8FA6C4" font-size="13" font-weight="normal" text-anchor="middle" font-family="'Segoe UI',Calibri,system-ui,sans-serif">(each row has 512 numbers — shown truncated)</text>
+</svg>
