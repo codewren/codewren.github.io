@@ -120,6 +120,7 @@
       - [Generate ssh key](/SOHOIT/GithubGuide/Generate%20ssh%20key.md)
     - HOMELabVPN
       - [home lab wireguard vpn guide](/SOHOIT/HOMELabVPN/home-lab-wireguard-vpn-guide.md)
+      - [wireguard addendum second corp server wsl](/SOHOIT/HOMELabVPN/wireguard-addendum-second-corp-server-wsl.md)
     - LinuxAdmin
       - Ansible
         - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
