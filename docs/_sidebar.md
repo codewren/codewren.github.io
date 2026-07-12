@@ -39,6 +39,8 @@
       - [Git Quick Sheet](/Computer%20Programming/git%20advanced%20guide/Git%20Quick%20Sheet.md)
       - [Git.Resources](/Computer%20Programming/git%20advanced%20guide/Git.Resources.md)
     - python
+      - python essentials
+        - [Python Class vs. Instance Objects](/Computer%20Programming/python/python%20essentials/Python%20Class%20vs.%20Instance%20Objects.md)
       - [uv Tool Quick Sheet](/Computer%20Programming/python/uv%20Tool%20Quick%20Sheet.md)
     - rust lang
       - [Rust Structs Creation and Destruction](/Computer%20Programming/rust-lang/Rust%20Structs%20Creation%20and%20Destruction.md)
@@ -116,6 +118,8 @@
       - [Rootless Podman Gateway IP Access](/SOHOIT/DockerContainers/Rootless%20Podman%20Gateway%20IP%20Access.md)
     - GithubGuide
       - [Generate ssh key](/SOHOIT/GithubGuide/Generate%20ssh%20key.md)
+    - HOMELabVPN
+      - [home lab wireguard vpn guide](/SOHOIT/HOMELabVPN/home-lab-wireguard-vpn-guide.md)
     - LinuxAdmin
       - Ansible
         - [Ansible Basic Info](/SOHOIT/LinuxAdmin/Ansible/Ansible%20Basic%20Info.md)
