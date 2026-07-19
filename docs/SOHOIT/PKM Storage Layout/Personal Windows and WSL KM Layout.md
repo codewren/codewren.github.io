@@ -1,25 +1,35 @@
+# 1. Windows KM  Layout
 
-# 1. Common Layout
+##  1.1 Top Location 
 
-##  1.1 Top Location for Linux
+- zone    for app
+- zpaces  for appdata and other data
 
-- arena
-- zpaces
+## 1.2. _\$Windows_\$HOME Base Location 
 
-## 1.2. $HOME Base Location in Linux
+### 1.2.1  $HOME-based  Desktop Application 
 
-### 1.2.1 Only For Linux Desktop of  $HOME-based  Application
-- Chrome
-- Obsidian
+-  Obsidian
 -  rclone
 -  electerm
 -  jetbrains
 #### Location name
- -  $HOME/zone/apphub
- -  $HOME/zone/appimages
- -  $HOME/zone/bin
+ -  _[C]_/zone/_appname_
+ -  _[C]_/zone/bin
 
+#### Data Location
+-  _[C]_/zpaces/appdata/_appname_    (WSL /mnt/c/zpaces/appdata/_appname_ )
 ### 1.2.2 Popular Dev Tool Chain Location
+- Optional - Most dev tool are in WSL
+#### Location Name
+ -  $HOME/.local/__product__
+
+# 2. WSL KM Layout
+
+## 2.1  $HOME-based  WSL Application
+- Optional  Most app should be in Windows
+
+## 2.2. Popular Dev Tool Chain Location
 - nvm and nodejs
 - uv and python
 - rust (rustc and cargo)
@@ -30,11 +40,10 @@
 #### Location Name
  -  $HOME/.local/__product__
 
-
-# 2 Layout
+##  2.3 Dev Spaces Layout
 
 ```
-<TopLocation>/
+<TopLocation /arena/>/
 ├── cntnrspc              ## Container Spaces
 │   ├── <container name>
 │   └── <container name>
@@ -47,15 +56,8 @@
 │    ├── env
 │    │   └── setenv.sh     ### All environment variable setting for this spaces   
 │    └── tmp
-├── databox                ##  the app data
-    └── obsidian           ## obsidian vault spaces
+├── databox (optional)        ##  almost none, only for WSL app databox. Most Windows app data are in ${Windows}/${zpaces}/appdata
+    └── tbd              ## 
 
 ```
 
-
-
-# 3. Layout of WSL
-
-	```
-	/mnt/c/zpaces/appdata/obsidian/codewren/codewren.github.io
-	```

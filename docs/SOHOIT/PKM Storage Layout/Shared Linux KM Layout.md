@@ -1,5 +1,5 @@
-
 # 1. ALL  $HOME Base Linux KM Layout
+ 
 ## 1.1   Working Space Layout
     - top location 
     
@@ -19,6 +19,8 @@ $HOME/zpaces/
 │    └── tmp
 ├── envutil
 │   ├── shell script    ## help to detect and fix the tools env setting
+├── databox
+│   ├── _appname_    ## app's data folder
 ```
   
 
