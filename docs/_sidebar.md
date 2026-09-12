@@ -151,6 +151,7 @@
         - [Docsify Quick Sheet](/SOHOIT/PKM%20Apps/docsify/Docsify%20Quick%20Sheet.md)
       - rclone
         - [rclone crypt Remote Guide](/SOHOIT/PKM%20Apps/rclone/rclone%20crypt%20Remote%20Guide.md)
+        - [rclone cheatsheet](/SOHOIT/PKM%20Apps/rclone/rclone-cheatsheet.md)
     - PKM Storage Layout
       - [Personal Linux Desktop KM Layout](/SOHOIT/PKM%20Storage%20Layout/Personal%20Linux%20Desktop%20KM%20Layout.md)
       - [Personal Windows and WSL KM Layout](/SOHOIT/PKM%20Storage%20Layout/Personal%20Windows%20and%20WSL%20KM%20Layout.md)
